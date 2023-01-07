@@ -1,0 +1,8 @@
+Executar migracao
+
+npx typeorm-ts-node-esm migration:generate
+ -d  ./src/shared/typeorm/migrations ./src/shared/typeorm/index.ts
+
+
+SE A MIGRAÇÃO ESTIVER NA RAIZ ESSE EH O COMANDO
+npx typeorm-ts-node-esm migration:run -d ./src/shared/typeorm/index.ts
